@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sugar Labyrinth</string>
+    <string name="app_title">SUGAR LABYRINTH</string>
+    <string name="app_tagline">CANDY FACTORY FLOW CONTROL</string>
+    <string name="loading">LOADING</string>
+
+    <string name="play">PLAY</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="next_board">NEXT BOARD</string>
+    <string name="menu">MENU</string>
+    <string name="levels">LEVELS</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="go">GO</string>
+    <string name="dry_run">DRY RUN %1$d</string>
+    <string name="vent">VENT</string>
+    <string name="resume">RESUME</string>
+    <string name="restart">RESTART</string>
+    <string name="reset">RESET</string>
+    <string name="cancel">CANCEL</string>
+    <string name="reset_progress">RESET PROGRESS</string>
+    <string name="token_chip">TOKEN %1$d</string>
+    <string name="tick">✓</string>
+
+    <string name="menu_hint">TAP A PIPE TO ROTATE IT · FILL EVERY TANK</string>
+    <string name="game_hint">TAP A PIPE TO ROTATE IT · TAP A SWITCH TO FLIP THE CONVEYOR</string>
+    <string name="best_score">BEST SCORE</string>
+    <string name="stars_earned">STARS EARNED</string>
+    <string name="copper_tokens">COPPER TOKENS %1$d</string>
+    <string name="empty_progress">NO BATCH RUN YET · FILL YOUR FIRST PLAN</string>
+    <string name="levels_sub">4 FACTORY CHAPTERS · 24 BOARDS</string>
+
+    <string name="chapters_title">FACTORY CHAPTERS</string>
+    <string name="chapter_1">CHOCOLATE LINE</string>
+    <string name="chapter_2">BERRY VATS</string>
+    <string name="chapter_3">NUT ROASTERY</string>
+    <string name="chapter_4">GLASS ATRIUM</string>
+    <string name="chapter_locked">LINE SEALED · EARN 12 STARS IN THE PREVIOUS CHAPTER</string>
+    <string name="stars_to_unlock">12 STARS TO UNLOCK</string>
+    <string name="expert_board">EXPERT BOARD · 12 MOVES · NEW LAYOUT EVERY RUN</string>
+
+    <string name="board_label">CHAPTER %1$d · BOARD %2$d</string>
+    <string name="board_number">%1$d</string>
+    <string name="moves_value">MOVES %1$d</string>
+    <string name="chip_progress">%1$d/%2$d</string>
+    <string name="chip_state">%1$s %2$d OF %3$d DELIVERED</string>
+    <string name="plan_state">PLAN %1$d OF %2$d UNITS DELIVERED</string>
+    <string name="pressure_state">PRESSURE %1$d OF %2$d</string>
+
+    <string name="pause_title">LINE PAUSED</string>
+    <string name="pause_body">THE NOZZLES ARE HOLDING. PICK UP WHERE YOU STOPPED OR START THE BOARD OVER.</string>
+    <string name="confirm_exit_title">LEAVE THE BATCH</string>
+    <string name="confirm_exit_body">THE CURRENT BOARD WILL BE LOST.</string>
+    <string name="confirm_reset_title">RESET PROGRESS</string>
+    <string name="confirm_reset_body">STARS, TOKENS AND THE BEST SCORE WILL BE CLEARED.</string>
+
+    <string name="outcome_plan_filled">PLAN FILLED</string>
+    <string name="outcome_batch_spoiled">BATCH SPOILED</string>
+    <string name="outcome_line_burst">LINE BURST</string>
+    <string name="outcome_out_of_moves">OUT OF MOVES</string>
+    <string name="cause_filled">EVERY TANK FILLED TO ORDER</string>
+    <string name="cause_spoiled">%1$s REACHED THE WRONG TANK</string>
+    <string name="cause_burst">PRESSURE HIT THE LIMIT</string>
+    <string name="cause_moves">PLAN SHORT BY %1$d UNITS</string>
+    <string name="score_label">SCORE</string>
+    <string name="moves_left_label">MOVES LEFT</string>
+    <string name="tokens_label">TOKENS</string>
+    <string name="tokens_earned">+%1$d</string>
+    <string name="stars_total">STARS COLLECTED %1$d</string>
+
+    <string name="flavor_raspberry">RASPBERRY</string>
+    <string name="flavor_pistachio">PISTACHIO</string>
+    <string name="flavor_blueberry">BLUEBERRY</string>
+    <string name="flavor_caramel">CARAMEL</string>
+    <string name="flavor_vanilla">VANILLA</string>
+
+    <string name="howto_title">HOW TO PLAY</string>
+    <string name="howto_rotate_title">ROTATE</string>
+    <string name="howto_rotate_body">Tap a pipe tile to turn it a quarter turn. Every turn costs one move and lifts the line pressure. Nozzles, tanks and boiler blocks never turn.</string>
+    <string name="howto_plan_title">PLAN</string>
+    <string name="howto_plan_body">The banner lists how many units of each syrup the batch needs. Press GO to send syrup down the pipes; one clean run fills one unit per tank.</string>
+    <string name="howto_pressure_title">PRESSURE</string>
+    <string name="howto_pressure_body">Turns and wasted pours push the needle up. VENT drops it by five for two moves. At the top of the dial the line bursts.</string>
+    <string name="howto_contamination_title">CONTAMINATION</string>
+    <string name="howto_contamination_body">Syrup that reaches a tank of another flavour spoils the whole batch. Use DRY RUN to ghost the path before you commit.</string>
+    <string name="howto_legend">FLAVOURS</string>
+    <string name="howto_disclaimer">18+ VISUAL STYLE ONLY · NO BETS · NO PRIZES · NO PURCHASES</string>
+
+    <string name="settings_title">SETTINGS</string>
+    <string name="setting_expert">EXPERT BOARDS</string>
+    <string name="setting_expert_hint">12 moves, a lower pressure cap and a fresh layout every run</string>
+    <string name="setting_marks">FLAVOR MARKS</string>
+    <string name="setting_marks_hint">Shape markers on every syrup, tank and plan chip</string>
+    <string name="setting_auto_dry">AUTO DRY RUN</string>
+    <string name="setting_auto_dry_hint">Ghost the current path as soon as a board opens</string>
+    <string name="setting_confirm_exit">CONFIRM EXIT</string>
+    <string name="setting_confirm_exit_hint">Ask before leaving a board in progress</string>
+    <string name="reset_hint">STARS %1$d · COPPER TOKENS %2$d</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+
+    <string name="cd_menu">RETURN TO MENU</string>
+    <string name="cd_pause">PAUSE THE LINE</string>
+    <string name="cd_logo">FACTORY EMBLEM</string>
+</resources>
